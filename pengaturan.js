@@ -8,5 +8,5 @@ const CONFIG_APP = {
     namaVendor: "Flamingo Studio",
 
     // 2. Google Drive API Key (Penting agar galeri bisa memuat foto)
-    googleApiKey: "AIzaSyAZczbLeVTXl-QKqLDJFWQLCd-lW9jqqxo"
+    googleApiKey: "AIzaSyDS8lK_GgC061h5u6FBBoEaVX-4MD77EU0"
 };
