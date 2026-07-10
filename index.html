@@ -350,7 +350,7 @@
             const selectedNames = appState.photos.filter(p => appState.selectedIds.has(p.id)).map(p => p.name);
             const vendor = (typeof CONFIG_APP !== 'undefined') ? CONFIG_APP.namaVendor : 'Studio';
             
-            const textToCopy = `*List Foto Pilihan Client*\nLayanan: ${vendor}\nTotal: ${selectedNames.length} Foto\n\n${selectedNames.join('\n')}\n\nNama :.....Jenis Foto:.....`;
+            const textToCopy = `*List Foto Pilihan Client*\nLayanan: ${vendor}\nTotal: ${selectedNames.length} Foto\n\n${selectedNames.join('\n')}\n\nNama :..... \nJenis Foto:.....`;
             
             const textArea = document.createElement("textarea");
             textArea.value = textToCopy; textArea.style.position = "fixed"; textArea.style.top = "-9999px"; textArea.style.left = "-9999px";
